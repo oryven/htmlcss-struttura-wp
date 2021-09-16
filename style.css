@@ -20,7 +20,7 @@ header {
     margin: 20px 0;
 }
 
-.clear::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
@@ -35,24 +35,26 @@ header {
     background-color: #6495ed;
 }
 
-.widget {
-    height: 300px;
-    width: 25%;
-    background-color: #6495ed;
+.row {
+    width: 100%;
     margin-top: 20px;
 }
 
-.left {
+.widget {
+    height: 300px;
     float: left;
+    width: 25%;
+    background-color: #6495ed;
 }
 
+
 .center {
-    float: left;
-    width: 50%;
+    width: 44%;
+    margin: 0 3%;
 }
 
 .right {
-    float: left;
+    
 }
 
 footer {
