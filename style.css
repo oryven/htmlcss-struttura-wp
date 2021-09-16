@@ -9,14 +9,54 @@ header {
     height: 70px;
 }
 
+.conteiner {
+    width: 80%;
+    margin: auto;
+}
+
 .foto-testo {
-    height: 500px;
+    height: 300px;
     background-color: burlywood;
     margin: 20px 0;
 }
 
-section::after {
+.clear::after {
     content: "";
     display: table;
     clear: both;
+}
+
+#sezione-blue {
+    background-color: darkturquoise;
+}
+
+.widgettop {
+    height: 50px;
+    background-color: #6495ed;
+}
+
+.widget {
+    height: 300px;
+    width: 25%;
+    background-color: #6495ed;
+    margin-top: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.center {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: left;
+}
+
+footer {
+    height: 50px;
+    background-color: darkorchid;
+    margin-top: 10px ;
 }
